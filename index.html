@@ -1,12 +1,144 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Página web básica para mi presentación</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Currículum</title>
+	<script src="https://kit.fontawesome.com/2c36e9b7b1.js" crossorigin="anonymous"></script>
+	<link href="https://fonts.googleapis.com/css?family=Lato:300,400,700|Oswald&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.0.7/fullpage.css">
+	<link rel="stylesheet" href="css/estilos.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
 </head>
 <body>
-    <h1>Hola</h1>
+	
+	<nav class="nav">
+		<a href="#inicio" class="Euge">Euge</a>
+		<ul id="menu" class="menu">
+			
+			<li data-menuanchor="SobreMi" class="active">
+				<a href="#SobreMi">Sobre mí</a>
+			</li>
+			<li data-menuanchor="Habilidades">
+				<a href="#Habilidades">Habilidades</a>
+			</li>
+			<li data-menuanchor="Gustos">
+				<a href="#Gustos">Gustos</a>
+			</li>
+			<li data-menuanchor="Contacto">
+				<a href="#Contacto">Contacto</a>
+			</li>
+			
+		</ul>
+	</nav>
+
+
+	<main id="fullpage">
+		<header class="section header">
+			<div>
+				<h1 id="Saludo" class="Saluton">
+					<¡Hola!>
+				</h1>
+				<p class="Saluton">
+					<br> Esta página fue hecha para presentarme (algo así como mi Currículum), espero puedan conocerme un poco y de agradarles mi perfil, procedan a contactarme :3.
+				<p class="Saluton"> 
+					<strong>
+						<br> NOTA:
+					</strong>Pueden desplazarse no solo con el scroll sino también con las flechitas del teclado.
+				</p>
+			</div>
+		</header>
+		<section class="section YO">
+		
+
+			<article class="slide">
+
+				<img id="yo" src="media/Yo.png" alt="Mi persona." width="400">
+
+				<div class="div1"> 
+					<h1 class="titulo-pag">
+						¿Quién soy?
+					</h1>
+					<p class="escribir">
+						Una persona con muchos intereses y habilidades a explotar. Por cierto, ¿Y mis modales? ¡Tardes! porque bueno/a está usted. <br><br> ¿Quieres saber más sobre mí?
+					</p>	
+				</div>
+				<div class="animate__heartBeat">
+					<p>
+						Clickea Aquí =====>
+					</p>
+				</div>
+				
+
+			</article>
+
+
+			<article class="slide">
+				
+				<img id="más" src="media/imagen.svg" alt="Mi persona." width="500">
+				
+				<div class="div2"> 
+					<h1 class="titulo-pag2">
+						<span>Eugemar Jiménez</span>
+					</h1>
+					<p class="escribir2">
+						Soy alguien amante del arte, me considero polifacética, me encanta estudiar y aprender cualquier cosa que me resulte interesante, pero sobre todo, tengo una obsesión con el color rosa el cual es mi color favorito. <br><br> Algunos elementos destacables de mi persona pueden ser mi sentido de la responsabilidad y del respeto hacia cualquier persona, mi carisma, optimismo y finalmente, la solidaridad y empatía que siento sobre los demás. Debo decir que considero destacable el amor por los retos, lo nuevo o desconocido para mí, lo único y sobre todo, lo especial.
+					</p>
+				</div>
+				
+			</article>
+
+
+		</section>
+		<section class="section habilidades">
+			<img id="hab" src="media/habilidad.svg" alt="Mi persona." width="500">
+			<div id="habilidad">
+				<h1 id="habilidad-titulo">
+					¿En qué soy buena?
+				</h1>
+				<p id="PHabi">
+					Soy buena con las matemáticas, la lógica y la creatividad. Hasta ahora tengo un dominio básico en las siguientes herramientas y lenguajes: WordPress, Blender, DaVinci Resolve, Photoshop, Adobe Ilustrator, JS, HTML, CSS y obtuve una beca en la cual estudié pseudocódigo. <br><br> Sigo estudiando y conociendo más sobre las herramientas antes mencionadas, y a excepción de pseudocódigo, todo lo mencionado anteriormente lo he aprendido de manera autodidacta. Gracias al interés que me genera estudiar, estoy abierta a recibir nuevas oportunidades académicas y a poner todo mi esfuerzo en aprender nuevas habilidades y adquirir nuevos conocimientos.
+				</p>
+			</div>
+
+	
+
+		</section>
+
+
+		<section class="section gustos">
+			<img id="amber" src="media/Amber.png" alt="Amber, brawler legandario en el juego 'Brawl Star'" width="800" height="670">
+			<div id="textoA">
+				<h1 id="amberH1">
+					¿Qué me gusta hacer?
+				</h1>
+				<p id="PAmber">
+					En mis tiempos libres adoro jugar y aprender (lo que esté a mi alcance, claro). Mi juego favorito de momento es "Brawl Star", juego cuyo quiero algún día ser parte de la Esports, me gusta mucho esa presión del competitivo específicamente en ese juego y de preguntarse cuál es mi brawler favorito, es ella (la que ocupa casi toda la pantalla jaja), Amber.
+				</p>
+			</div>
+		</section>
+
+		
+		<footer class="section footer">
+
+			<img id="bye" src="media/corazon.svg" alt="Mi persona." width="450">
+			<div>
+				<h1 id="Aloh">Contáctame</h1>
+				<p id="nousi">¡Descubre mi correo XD!</p>
+				<p class="redes-sociales">
+					<a target="_blank" href="https://discord.com/users/531916538362593284" class="discord"><i class="fab fa-discord"></i></a>
+					<a target="_blank" href="https://twitter.com/PPrincesaE" class="twitter"><i class="fab fa-twitter-square"></i></a>
+					<a target="_blank" href="https://www.instagram.com/euge.2908/" class="instagram"><i class="fab fa-instagram"></i></a>
+				</p>
+				<p id="texto">eugemar.jzpa.2908@gmail.com</p>
+			</div>
+		</footer>
+
+	</main>
+
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.0.7/fullpage.js"></script>
+	<script src="js/app.js"></script>
 </body>
 </html>
