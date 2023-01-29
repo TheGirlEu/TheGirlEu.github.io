@@ -1,7 +1,4 @@
- * https://github.com/alvarotrigo/fullPage.js
- * MIT licensed
- *
- * Copyright (C) 2013 alvarotrigo.com - A project by Alvaro Trigo
- */
- 
+Con ayuda de: https://github.com/alvarotrigo/fullPage.js
+
  Hice esta página con el fin de, además de practicar, poder usarla para presentarme :3.
+ Link para que la visualicen: TheGirlEu.github.io
